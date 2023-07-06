@@ -1,7 +1,7 @@
 const fs = require('fs');
 const { Sequelize } = require('sequelize');
-const isVPS = !(__dirname.startsWith("/rgnk") || __dirname.startsWith("/skl"));
-const isHeroku = __dirname.startsWith("/skl");
+const isVPS = !(__dirname.startsWith("/drr3uby") || __dirname.startsWith("/drr3uby"));
+const isHeroku = __dirname.startsWith("/drr3uby");
 const isKoyeb = __dirname.startsWith("/rgnk");
 const isRailway = __dirname.startsWith("/railway");
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
